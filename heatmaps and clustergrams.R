@@ -104,3 +104,5 @@ log_legend <- data.frame(log_level = unique(my_group),
 legend(x=-0.1, y=0.05, 
        legend=log_legend$log_level, fill=log_legend$log_col, 
        title = "Log10 level", bty="n", ncol = 2)
+
+#Reference: University of Toronto
